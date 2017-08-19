@@ -1,0 +1,143 @@
+body {
+	padding:0;
+	margin: 0;
+}
+
+nav {
+	display:none;
+	align-items: center;
+	justify-content: center;
+	height:50px;
+	border:solid black 1px;
+}
+.navButton{
+	display:none;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	width:10vw;
+	border:solid red 1px;
+
+}
+
+.imageDiv{
+	height: 50%;
+	width:30vw;
+	margin: 0 auto;
+	margin-top: 15vh;
+	border:solid red 1px;
+
+
+}
+.enterButton{
+	display: flex;
+	width: 75px;
+	height: 50px;
+	border: solid red 1px;
+	margin: 0 auto;
+	cursor: pointer;
+	justify-content: center;
+	align-items: center;
+
+}
+
+/* DIVS for EACH PAGE */
+/* STYLE FOR EVERY PAGE*/
+.page {
+	display: none;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100vh;
+	border: solid green 1px;
+}
+
+
+#landing {
+	display: flex;
+	flex-direction: column;
+	border: solid red 1px;
+}
+#index {
+	border: solid green 1px;
+	flex-direction:column;
+}
+
+.members {
+	display: flex;
+	justify-content: center;
+	margin: 5px;
+	height: 50%;
+	width: 100%;
+	border: solid blue 5px;
+}
+
+.memberContainer {
+	height: 90%;
+	width: 25vw;
+	border: solid yellow 1px;
+	margin: 5px;
+}
+.profileImage {
+	width: 90%;
+	height: 50%;
+	border: solid red 2px;
+}
+
+/* individual bio/links page */
+.bioLinksContainer {
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 80%;
+	width: 65%;
+	margin: 0 auto;
+	border: solid blue 1px;
+}
+.job {
+	width: 100%;
+	height: 30%;
+	border: solid green 1px;
+}
+.name {
+	height: 10%;
+	width: 100%;
+	border: solid green 1px;
+}
+.bio {
+	height: 10%;
+	width: 100%;
+	border: solid green 1px;
+}
+.info {
+	width: 100%;
+	height: 30%;
+	border: solid green 1px;
+}
+.socialLinksContainer {
+	height: 20%;
+	width: 100%;
+	display: flex;
+	align-self: center;
+	justify-content: center;
+	border: solid red 1px;
+}
+.socialLinks {
+	width:20%;
+	border: solid green 1px;
+}
+
+
+
+
+footer {
+	display:none;
+	height:50px;
+	border: solid blue 1px;
+}
+
+
+
+
+
