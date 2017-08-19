@@ -112,11 +112,11 @@ nav {
 }
 .info {
 	width: 100%;
-	height: 30%;
+	height: 60%;
 	border: solid green 1px;
 }
 .socialLinksContainer {
-	height: 20%;
+	height: 10%;
 	width: 100%;
 	display: flex;
 	align-self: center;
@@ -124,7 +124,7 @@ nav {
 	border: solid red 1px;
 }
 .socialLinks {
-	width:20%;
+	width:5%;
 	border: solid green 1px;
 }
 
