@@ -5,27 +5,27 @@ $(document).ready(()=> {
 
 	let nav = $('nav');
 	let navButton = $('.navButton')
-	let landing = $('#landing');
+	let opening = $('#opening');
 	let index = $('#index');
-	let footer = $('footer');
+	let footer = $('#footer');
 
 	let enterButton = $('.enterButton')
 
 	/* Some of these display Blocks may need to be be "flex" after styling */
 /*	$(enterButton).on('click', ()=> {*/
 		/* Show Page content */
-		(function see(){
-		$(page).css('display', 'flex');
+		/*(function see(){*/
+		/*$(page).css('display', 'flex');*/
 		
 		/*Show Navbar */
-		$(nav).css('display', 'flex')
-		$(navButton).css('display', 'flex')
+/*		$(nav).css('display', 'flex')
+		$(navButton).css('display', 'flex')*/
 		/* Show Footer */
-		$(footer).css('display', 'flex')
-		/* Remove Landing page */
-		$(landing).css('display', 'none');
-	}())
-/*	})*/
+/*		$(footer).css('display', 'flex')
+*/		/* Remove Landing page */
+		/*$(opening).css('display', 'none');*/
+/*	}())*/
+	/*})*/
 
 	
 
